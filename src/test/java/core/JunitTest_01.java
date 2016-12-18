@@ -7,6 +7,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
+import org.junit.FixMethodOrder;
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 public class JunitTest_01 {
 @BeforeClass
